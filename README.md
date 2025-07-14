@@ -12,7 +12,7 @@ ve kategori atama işlemleri gerçekleştirerek AI destekli arama-filtreleme den
 - İş mantığı (REST API + Appwrite)  
 - Depolama & Kimlik (Appwrite Storage & Auth)  
 
-![Şekil 2.1: Sistemin Genel Mimarisi](assets/images/mimari.png)
+![Şekil 2.1: Sistemin Genel Mimarisi](storage_management_solution-main/types/mimari.png)
 
 ## 🛠️ Kullanılan Teknolojiler
 - **Front-end:** React 19, Next.js 15  
@@ -23,19 +23,19 @@ ve kategori atama işlemleri gerçekleştirerek AI destekli arama-filtreleme den
 
 ### 1. Giriş Ekranı
 Basit, duyarlı bir tasarımla kullanıcı kaydı/girişi sağlar.  
-![Şekil 3.1: Kullanıcı Giriş Arayüzü](assets/images/login.png) :contentReference[oaicite:0]{index=0}
+![Şekil 3.1: Kullanıcı Giriş Arayüzü](storage_management_solution-main/types/login.png) :contentReference[oaicite:0]{index=0}
 
 ### 2. OTP Doğrulama Modalı
 E-posta ile tek seferlik şifre gönderimi ve doğrulama için modal pencere.  
-![Şekil 3.2: OTP Modal Pencere](assets/images/otp_modal.png) :contentReference[oaicite:1]{index=1}
+![Şekil 3.2: OTP Modal Pencere](storage_management_solution-main/types/otp_modal.png) :contentReference[oaicite:1]{index=1}
 
 ### 3. Ana Sayfa
 Dosya yükleme, indirme, arama-filtreleme ve AI analiz sonuçlarını görüntüleyen pano.  
-![Şekil 3.3: Ana Sayfa Arayüzü](assets/images/homepage.png) :contentReference[oaicite:2]{index=2}
+![Şekil 3.3: Ana Sayfa Arayüzü](storage_management_solution-main/types/homepage.png) :contentReference[oaicite:2]{index=2}
 
 ### 4. AI Destekli İçerik Analizi
 Yükleme sonrası dosya içeriği, OpenAI “gpt-4o-mini” modeli kullanılarak otomatik özetlenir, anahtar kelimelere ayrılır ve uygun kategoriye atanır .  
-![Şekil 3.4: AI Analiz Sonuçları](assets/images/ai_analysis.png)
+![Şekil 3.4: AI Analiz Sonuçları](storage_management_solution-main/types/ai_analysis.png)
 
 ## 🚀 Kurulum & Çalıştırma
 1. Depoyu klonlayın  
